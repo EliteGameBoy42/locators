@@ -1,0 +1,25 @@
+Xpath:
+//tagname=[@attribute='value']
+//*=[@attribute='value']-to ignore tagname
+//tagname[contains(@attribute,'value')]-regular expression
+//tagname=[@attribute='value']/following-sibling::sibling tagname
+//tagname=[@attribute='value']/parent::parent tagname
+
+text based locator:
+//*[text()='value']
+**check for spaces in the front and back of the text.
+
+css selector:
+tagname[attribute='value']
+[attribute='value']-to ignore tagname
+tagname[attribute*='value']-regular expression
+tagname#id
+tagname.classname
+**if there is a space between classname replace spaces with (.)
+
+traverse through child in css:
+tagname[class='value'] tagname:nth-child(number of child to traverse through)
+
+
+
+
